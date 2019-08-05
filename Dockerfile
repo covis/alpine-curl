@@ -1,3 +1,3 @@
-FROM alpine:3.9
+FROM alpine:3.10
 
-RUN apk add --no-cache curl ca-certificates
+RUN apk add --no-cache curl ca-certificates openssl
