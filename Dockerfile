@@ -1,3 +1,3 @@
 FROM alpine:3.10
 
-RUN apk add --no-cache curl ca-certificates openssl telnet
+RUN apk add --no-cache curl ca-certificates openssl busybox-extras
